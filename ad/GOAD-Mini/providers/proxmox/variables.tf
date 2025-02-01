@@ -12,7 +12,7 @@ variable "pm_password" {
 }
 
 variable "pm_node" {
-  default = "leo"
+  default = "pio"
 }
 
 variable "pm_pool" {
@@ -37,7 +37,7 @@ variable "vm_template_id" {
 
 variable "storage" {
   # change this with the name of the storage you use
-  default = "local-lvm"
+  default = "SmolCephReplicate"
 }
 
 variable "network_bridge" {
