@@ -13,13 +13,13 @@ variable "vm_config" {
   default = {
     "dc01" = {
       name    = "DC01"
-      desc    = "DC01 - windows server 2019 - 192.168.12.12"
+      desc    = "DC01 - windows server 2019 - 192.168.10.12"
       cores   = 2
       memory  = 3096
       clone   = "WinServer2019_x64"
-      dns     = "192.168.12.1"
-      ip      = "192.168.12.12/24"
-      gateway = "192.168.12.1"
+      dns     = "192.168.10.1"
+      ip      = "192.168.10.12/24"
+      gateway = "192.168.10.1"
     }
   }
 }
