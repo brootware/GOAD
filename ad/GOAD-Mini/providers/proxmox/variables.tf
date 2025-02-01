@@ -12,7 +12,7 @@ variable "pm_password" {
 }
 
 variable "pm_node" {
-  default = "pio"
+  default = "leo"
 }
 
 variable "pm_pool" {
